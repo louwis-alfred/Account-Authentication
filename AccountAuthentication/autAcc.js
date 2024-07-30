@@ -39,4 +39,4 @@ console.log(auth.register('macarthur', 'password123')); // User registered succe
 console.log(auth.login('macarthur', 'password123'));    // Login successful
 console.log(auth.logout());                          // User logged out
 console.log(auth.login('macarthur', 'wrongpassword'));  // Incorrect password
-console.log(auth.login('kapitan', 'password123'));  // Username does not exist
+console.log(auth.login('cubic', 'password123'));  // Username does not exist
