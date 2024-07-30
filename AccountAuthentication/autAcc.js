@@ -38,5 +38,5 @@ const auth = {
 console.log(auth.register('macarthur', 'password123')); // User registered successfully
 console.log(auth.login('macarthur', 'password123'));    // Login successful
 console.log(auth.logout());                          // User logged out
-console.log(auth.login('louwis', 'wrongpassword'));  // Incorrect password
+console.log(auth.login('macarthur', 'wrongpassword'));  // Incorrect password
 console.log(auth.login('kapitan', 'password123'));  // Username does not exist
